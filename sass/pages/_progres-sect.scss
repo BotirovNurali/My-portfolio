@@ -1,0 +1,70 @@
+.progres__card {
+    width: 100%;
+    gap: 13.8rem;
+    justify-content: space-between;
+    margin-top: .4rem;
+}
+
+   .progres__title {
+    width: 35rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    font-weight: 600;
+    
+    span {
+        text-transform: uppercase;
+    }
+ }
+
+ .progres__long{
+    margin: 1.5rem 0 3.2rem;
+    .progres {
+        position: relative;
+        width: 100%;
+        height: .5rem;
+        border-radius: 1rem;
+        display: inline-block;
+        background-color: rgb(226, 226, 226);
+    }
+
+    .progres__abs {
+        position: absolute;
+        top: 0;
+        width: 90%;
+        height: .5rem;
+        border-radius: 1rem;
+        display: inline-block;
+        background-color: $mainBlack;
+
+        &_1 {
+            position: absolute;
+            top: 0;
+            width: 97%;
+            height: .5rem;
+            border-radius: 1rem;
+            display: inline-block;
+            background-color: $mainBlack;
+        }
+
+        &_2 {
+            position: absolute;
+            top: 0;
+            width: 95%;
+            height: .5rem;
+            border-radius: 1rem;
+            display: inline-block;
+            background-color: $mainBlack;
+        }
+        
+        &_3 {
+            position: absolute;
+            top: 0;
+            width: 92%;
+            height: .5rem;
+            border-radius: 1rem;
+            display: inline-block;
+            background-color: $mainBlack;
+        }
+    }
+ }

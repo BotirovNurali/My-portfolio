@@ -1,0 +1,34 @@
+nav {
+    @include flexbox(space-between, center);
+    height: 7rem;
+
+    .logo {
+        color: $mainRed;
+    }
+
+    .nav__lang {
+            font-weight: 600;
+    }
+
+    .nav__menu {
+        @include flexbox($ai: center);
+
+        .nav__item {
+            margin: 0 1rem;
+            padding: .7rem 0;
+        }
+
+        .nav__link {
+            text-transform: uppercase;
+            font-size: 1.4rem;
+
+            &.active {
+                color: $mainRed;
+            }
+
+            &:hover {
+                @extend .active;
+            }
+        }
+    }
+}

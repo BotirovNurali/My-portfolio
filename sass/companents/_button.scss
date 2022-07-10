@@ -1,0 +1,28 @@
+.btn {
+    padding: 1rem 2.5rem;
+    border: .1rem solid transparent;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.btn__danger {
+    letter-spacing: .3rem;
+    background-color: $mainRed;
+    color: white;
+    font-weight: 600;
+}
+
+.btn__secondary {
+    background-color: $mainBlack;
+    color: white;
+}
+
+
+
+
+
+.btn__group {
+    display: flex;
+    gap: 3rem;
+}

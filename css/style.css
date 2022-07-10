@@ -1,0 +1,420 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&family=Satisfy&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+*, *::after, *::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.progres__card {
+  width: 100%;
+  gap: 13.8rem;
+  justify-content: space-between;
+  margin-top: 0.4rem;
+}
+
+.progres__title {
+  width: 35rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.progres__title span {
+  text-transform: uppercase;
+}
+
+.progres__long {
+  margin: 1.5rem 0 3.2rem;
+}
+.progres__long .progres {
+  position: relative;
+  width: 100%;
+  height: 0.5rem;
+  border-radius: 1rem;
+  display: inline-block;
+  background-color: rgb(226, 226, 226);
+}
+.progres__long .progres__abs {
+  position: absolute;
+  top: 0;
+  width: 90%;
+  height: 0.5rem;
+  border-radius: 1rem;
+  display: inline-block;
+  background-color: #3e4454;
+}
+.progres__long .progres__abs_1 {
+  position: absolute;
+  top: 0;
+  width: 97%;
+  height: 0.5rem;
+  border-radius: 1rem;
+  display: inline-block;
+  background-color: #3e4454;
+}
+.progres__long .progres__abs_2 {
+  position: absolute;
+  top: 0;
+  width: 95%;
+  height: 0.5rem;
+  border-radius: 1rem;
+  display: inline-block;
+  background-color: #3e4454;
+}
+.progres__long .progres__abs_3 {
+  position: absolute;
+  top: 0;
+  width: 92%;
+  height: 0.5rem;
+  border-radius: 1rem;
+  display: inline-block;
+  background-color: #3e4454;
+}
+
+.galary__nav .menu__galery {
+  margin-top: 2rem;
+  padding: 1rem;
+  justify-content: center;
+}
+.galary__nav .menu__galery .g_link {
+  text-transform: capitalize;
+  position: relative;
+  text-align: center;
+  color: #757b93;
+}
+.galary__nav .menu__galery .g_link.active, .galary__nav .menu__galery .g_link:hover {
+  color: #3e4454;
+} 
+.galary__nav .menu__galery .g_link.active span, .galary__nav .menu__galery .g_link:hover span {
+  display: block;
+  margin: auto;
+}
+.galary__nav .menu__galery .g_link span {
+  display: none;
+  position: absolute;
+  top: 2rem;
+  left: 1rem;
+  height: 0.5rem;
+  width: 0.5rem;
+  border-radius: 50%;
+  background-color: #3e4454;
+}
+.galary__nav .menu__galery .g_link span::before {
+  position: absolute;
+  content: "";
+  top: 0rem;
+  left: 1rem;
+  height: 0.5rem;
+  width: 0.5rem;
+  display: block;
+  border-radius: 50%;
+  background-color: #3e4454;
+}
+.galary__nav .menu__galery .g_link span::after {
+  position: absolute;
+  content: "";
+  top: 0rem;
+  left: 2rem;
+  height: 0.5rem;
+  width: 0.5rem;
+  display: block;
+  border-radius: 50%;
+  background-color: #3e4454;
+}
+
+.gallery-1 {
+  height: 65%;
+  padding: 0rem 1rem 5rem;
+}
+
+.gallery-4 {
+  height: 65%;
+  padding: 0rem 1rem 5rem;
+}
+
+.gallery-5 {
+  height: 65%;
+  padding: 0rem 1rem 5rem;
+}
+
+.gallery-2 {
+  height: 35%;
+  padding: 0rem 1rem 5rem;
+}
+
+.gallery-3 {
+  height: 35%;
+  padding: 0rem 1rem 5rem;
+}
+
+.gallery-6 {
+  height: 35%;
+  padding: 0rem 1rem 5rem;
+}
+
+.btn {
+  padding: 1rem 2.5rem;
+  border: 0.1rem solid transparent;
+  outline: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.btn__danger {
+  letter-spacing: 0.3rem;
+  background-color: #ff013d;
+  color: white;
+  font-weight: 600;
+}
+
+.btn__secondary {
+  background-color: #3e4454;
+  color: white;
+}
+
+.btn__group {
+  display: flex;
+  gap: 3rem;
+}
+
+.card__group {
+  margin-top: 4rem;
+}
+
+.card {
+  padding: 1.2rem 2rem;
+  border: 0.2rem solid rgb(205, 230, 236);
+  margin-right: 1rem;
+  text-align: center;
+}
+.card:not(:last-child) {
+  margin-right: 0;
+}
+.card .card__body {
+  line-height: 3rem;
+}
+.card .brand__link {
+  color: #757b93;
+}
+.card .brand__link.active, .card section .nav__menu .brand__link.nav__link:hover, section .nav__menu .card .brand__link.nav__link:hover, .card nav .nav__menu .brand__link.nav__link:hover, nav .nav__menu .card .brand__link.nav__link:hover, .card .brand__link:hover, .card .galary__nav .menu__galery .brand__link.g_link:hover, .galary__nav .menu__galery .card .brand__link.g_link:hover {
+  color: red;
+}
+.card .brand__link .fa-solid {
+  font-size: 7rem;
+  margin-bottom: 1rem;
+}
+
+.car__outliny:hover {
+  box-shadow: 0rem 0rem 0.8rem #757b93, 0rem 0rem 0.8rem #757b93;
+  transform: translateY(-1.5rem);
+}
+.car__outliny:hover .brand__link {
+  color: red;
+}
+.car__outliny.active, section .nav__menu .car__outliny.nav__link:hover, nav .nav__menu .car__outliny.nav__link:hover, .galary__nav .menu__galery .car__outliny.g_link:hover, .card .car__outliny.brand__link:hover, .car__outliny:hover {
+  border: 0.1rem solid transparent;
+  box-shadow: 0rem 0rem 0.8rem #757b93, 0rem 0rem 0.8rem #757b93;
+  transform: translateY(-1.5rem);
+}
+.car__outliny .brand__link {
+  color: #757b93;
+}
+.car__outliny .brand__link.active, .car__outliny section .nav__menu .brand__link.nav__link:hover, section .nav__menu .car__outliny .brand__link.nav__link:hover, .car__outliny nav .nav__menu .brand__link.nav__link:hover, nav .nav__menu .car__outliny .brand__link.nav__link:hover, .car__outliny .galary__nav .menu__galery .brand__link.g_link:hover, .galary__nav .menu__galery .car__outliny .brand__link.g_link:hover, .car__outliny .card .brand__link:hover, .card .car__outliny .brand__link:hover, .car__outliny .brand__link.car__outliny:hover {
+  color: red;
+}
+.car__outliny .brand__link .fa-solid {
+  font-size: 7rem;
+  margin-bottom: 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  height: 7rem;
+}
+nav .logo {
+  color: #ff013d;
+}
+nav .nav__lang {
+  font-weight: 600;
+}
+nav .nav__menu {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+}
+nav .nav__menu .nav__item {
+  margin: 0 1rem;
+  padding: 0.7rem 0;
+}
+nav .nav__menu .nav__link {
+  text-transform: uppercase;
+  font-size: 1.4rem;
+}
+nav .nav__menu .nav__link.active, nav .nav__menu .nav__link:hover, nav .nav__menu .galary__nav .menu__galery .nav__link.g_link:hover, .galary__nav .menu__galery nav .nav__menu .nav__link.g_link:hover {
+  color: #ff013d;
+}
+.container-fluid {
+  width: 100%;
+  padding: 0 10rem;
+}
+
+.container {
+  max-width: 980px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  flex: 1;
+}
+
+header {
+  background-color: #edf1fd;
+}
+
+section#main__section {
+  height: calc(100vh - 7rem);
+  background-color: #edf1fd;
+}
+section#section__color_1 {
+  background-color: #edf1fd;
+  display: flex;
+  align-items: center;
+}
+section#section__color_2 {
+  height: 140vh;
+}
+section .hearo__section {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+section .icons {
+  width: 11%;
+  height: calc(100vh - 7rem);
+  float: left;
+  display: flex;
+  align-items: flex-end;
+}
+section .nav__menu {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+}
+section .nav__menu .nav__item {
+  margin: 0 1rem;
+  padding: 0.7rem 0;
+}
+section .nav__menu .nav__link {
+  text-transform: uppercase;
+  font-size: 1.4rem;
+}
+section .nav__menu .nav__link.active, section .nav__menu .nav__link:hover, section .nav__menu .galary__nav .menu__galery .nav__link.g_link:hover, .galary__nav .menu__galery section .nav__menu .nav__link.g_link:hover {
+  color: #ff013d;
+}
+section .main__decoration {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  text-transform: uppercase;
+}
+section .main__decoration.fontsz {
+  font-size: 1.4rem;
+}
+section .main__decoration span {
+  display: inline-block;
+  width: 3rem;
+  height: 0.2rem;
+  background-color: #757b93;
+  border-radius: 0.2rem;
+  margin-right: 1.5rem;
+}
+section .main__subtitle {
+  font-size: 5rem;
+}
+section .main__subtitle span {
+  color: #ff013d;
+}
+section .main__text {
+  line-height: 3rem;
+}
+section .img__hero {
+  max-width: 100%;
+  min-height: 40rem;
+  max-height: 53.5rem;
+  margin-bottom: -1rem;
+}
+
+section {
+  height: 100vh;
+}
+section .sect--pad {
+  padding: 2.5rem 0;
+}
+section .img__jem {
+  max-width: 100%;
+  min-height: 30rem;
+  max-height: 35rem;
+  display: inline-block;
+}
+section .text__tran {
+  text-transform: capitalize;
+  font-size: 2.4rem;
+}
+section .hearo__sect {
+  line-height: 5rem;
+}
+section .hearo__sect .sect__text {
+  line-height: 3rem;
+}
+section .hearo__sect .img__imz {
+  margin-top: 3rem;
+}
+section .tra__rotat {
+  transform: rotate(-90deg);
+  float: left;
+}
+section .card__group_header {
+  text-align: center;
+  line-height: 3rem;
+}
+section .card__group_header h2 {
+  margin-bottom: 2rem;
+}
+section .card__group_header p {
+  max-width: 60%;
+  margin: auto;
+}
+
+/*# sourceMappingURL=style.css.map */
